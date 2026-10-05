@@ -1,0 +1,26 @@
+# Java / NetBeans
+build/
+dist/
+nbproject/private/
+*.class
+*.jar
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DB (optional: remove if you want to include the SQLite DB in the repo)
+*.sqlite
+
+# Maven/Gradle
+target/
+.gradle/
+
+# Other
+*.swp
