@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run School System",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "loginapp.LoginApp",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "classPaths": [
+        "${workspaceFolder}/build/classes",
+        "${workspaceFolder}/lib/sqlite-jdbc-3.16.1.jar",
+        "C:/Program Files/Java/jdk1.8.0_202/jre/lib/jfxrt.jar"
+      ],
+      "sourcePaths": [
+        "${workspaceFolder}/src"
+      ],
+      "vmArgs": [
+        "-Xms128m",
+        "-Xmx1g"
+      ]
+    }
+  ]
+}
